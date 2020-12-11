@@ -170,7 +170,7 @@ before_install:
   - npm install
   - cd ../..
   - composer selfupdate
-  - composer create-project -n --no-dev --prefer-dist blackboard-open-source/moodle-plugin-ci ci ^2
+  - composer create-project -n --no-dev --prefer-dist jfederico/moodle-plugin-ci:v2 ci ^2
   - export PATH="$(cd ci/bin; pwd):$(cd ci/vendor/bin; pwd):$PATH"
 
 install:
